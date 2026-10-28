@@ -1,0 +1,65 @@
+# keep-English 清单
+# 格式：英文原文 <TAB> 原因
+# 引擎按原文精确匹配；支持 \r \n \t 转义。
+# 只放“用户不可见”或“刻意保持英文”的字符串；UI 标签和用户可见错误应进词条表。
+
+# ---------- 日期 / 区域名 ----------
+dddd, MMMM dd, yyyy	日期格式，走 Win32 区域设置
+american english	区域名
+english-south africa	区域名
+english-trinidad y tobago	区域名
+spanish-costa rica	区域名
+spanish-dominican republic	区域名
+spanish-el salvador	区域名
+spanish-puerto rico	区域名
+great britain	区域名
+pr china	区域名
+south africa	区域名
+south korea	区域名
+trinidad & tobago	区域名
+
+# ---------- 非 UI / 内部数据 ----------
+$\nZ	非 UI 字节串
+abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ_-0123456789	字符集常量
+Microsoft Unified Security Protocol Provider	SSPI 提供程序名
+Has Window	内部能力标识
+NeatDownloadManager Main Window	窗口类/标题内部字符串
+
+# ---------- 动态拼接片段 ----------
+Proxy 	用于拼接代理认证消息的前缀
+ Auth , 	用于拼接认证消息的片段
+Although other Connections have passed 	日志片段
+ Http-Redirect ).	日志片段
+
+# ---------- 浏览器扩展协议内部 ----------
+Invalid Message Received From Client.	扩展协议内部
+Client is Closing the Connection.	扩展协议内部
+Invalid Opcode Received.	扩展协议内部
+Too-Long Frame Sent by Client.	扩展协议内部
+Client Sent Too-Long Message.	扩展协议内部
+Error on Sending Pong.	扩展协议内部
+
+# ---------- 协议 / 命令行 / 专有名词 ----------
+microsoft-edge:	协议处理器
+ -autostart	命令行开关
+Google Chrome	专有名词
+Mozilla Firefox	专有名词
+Microsoft Edge	专有名词
+Socks V5	协议名
+Socks V4	协议名
+Neat Download Manager	产品名
+Neat Download Manager 1.4.24	版本字符串
+Neat Download Manager 1.2	版本历史
+Neat Download Manager 1.3	版本历史
+Neat Download Manager 1.0	版本历史
+Neat Download Manager 1.1	版本历史
+
+# ---------- 刻意保持英文：About / 链接 / 排序 ----------
+Unable to Check For Update , Please Try Again Later	About 布局；ticket 04 填充失败，保持英文
+NOT Up To Date, Click Above Button to get the New Version	About 布局；ticket 04 填充失败，保持英文
+Application is Up To Date.	About 布局；ticket 04 填充失败，保持英文
+Checking For Update...	About 布局；ticket 04 填充失败，保持英文
+Contact : support@neatdownloadmanager.com	链接布局；ticket 04 填充失败，保持英文
+Website : neatdownloadmanager.com	链接布局；ticket 04 填充失败，保持英文
+ (z-a)	排序标记
+ (a-z)	排序标记

@@ -1,0 +1,300 @@
+# NDM (Neat Download Manager) 汉化词条表
+# 格式：英文原文 <TAB> 中文译文
+# 说明：英文原文必须与 NeatDM.exe 中的 UTF-16LE 字符串完全一致（含首尾空格、大小写）
+#       引擎按“原文 + 结束符 0x0000”精确匹配，不会误伤子串
+#       译文长度不得超过原文长度，否则该条会被跳过并在报告中列出
+
+# ---------- 主界面 / 分类树 ----------
+All Downloads	全部下载
+Tree View	树形视图
+Compressed	压缩包
+Application	应用程序
+Video	视频
+Document	文档
+Complete	已完成
+Incomplete	未完成
+Misc	杂项
+Audio	音频
+
+# ---------- 列表列标题 ----------
+Status	状态
+User	用户
+Target	目标
+Bandwidth	带宽
+Size	大小
+Remaining Time	剩余时间
+Last Try (z-a)	上次尝试 (z-a)
+
+# ---------- 下载条目悬浮面板 ----------
+ Download 	 下载 
+ Connections 	 连接数 
+ Options 	 选项
+File Size	文件大小
+Starting...	正在启动...
+Downloaded	已下载
+Unknown	未知
+Resumable	可续传
+Limit Bandwidth to 	限制带宽为 
+0 or Blank = No Limit	0 或留空表示不限速
+Apply	应用
+Show Completion Dialog	下载完成时弹出提示
+Remember on Resume	续传时记住
+Segments : 0  Completed : 0	分段：0  已完成：0
+Segments : 0	分段：0
+Connections	连接数
+Pause	暂停
+Download...	下载中...
+Paused - 	已暂停 - 
+Paused -  	已暂停 -  
+'Paused ( 	已暂停（ 
+Yes	是
+Proxy	代理
+ Authentication Failed for 	 身份验证失败： 
+Video Status	视频状态
+Audio Status	音频状态
+Total Downloaded	已下载总量
+Total File Size	文件总大小
+Total Bandwidth	总带宽
+Size : 	大小：
+Video : 	视频：
+Audio : 	音频：
+Muxing MKV...	正在合并 MKV...
+Log File	日志文件
+
+# ---------- 右键菜单 / 托盘菜单 ----------
+Resume	继续
+New URL	新链接
+Delete	删除
+Stop	停止
+Redownload	重新下载
+Properties	属性
+Show Window	显示窗口
+About	关于
+Settings	设置
+Quit	退出
+OK	确定
+Cancel	取消
+Close	关闭
+Remember	记住
+User Name	用户名
+Password	密码
+ Authentication For :	 身份验证：
+Browsers	浏览器	0x164A60
+File Name	文件名	0x165370
+Download Completed	下载完成
+
+# ---------- 下载属性对话框 ----------
+File Size :	文件大小：
+Status :	状态：
+Temp Path :	临时路径：
+Saved To :	保存到：
+Page URL :	页面地址：
+Page Title :	页面标题：
+(Editable)	（可编辑）
+Show Page	显示页面
+Browser :	浏览器：
+Last Try :	上次尝试：
+Added On :	添加时间：
+Title = 	标题 = 
+
+# ---------- 设置对话框 ----------
+Neat Download Manager Settings	NeatDM 下载管理器设置
+ General 	 常规 	0x16687C
+ Passwords 	 密码 
+ Proxy/Socks 	 代理/Socks 
+8 Connections Recommended	建议使用 8 个连接
+Max Connections per Download	每个任务的最大连接数
+Create Additional Connections All at Once	一次性创建全部附加连接
+When first Connection Starts Downloading  , :	首个连接开始下载时： 
+Bandwidth Limit per Download (KB/s)	每个任务的带宽限制 (KB/s)
+Create Additional Connections One by One	逐个创建附加连接
+Default User-Agent 	默认 User-Agent 
+0 or blank for No limit 	0 或留空表示不限制 
+Use this UA for both Manual and Browser-Sent Downloads ( Be Careful )	该 UA 同时用于手动下载和浏览器下载（请谨慎）
+Reset	重置
+Create Category Folders ( e.g.  Video, Document, ...  )	创建分类文件夹（如 视频、文档……）
+Download Directory 	下载目录 
+Get File Creation Date From Server	从服务器获取文件创建时间
+Temporary Directory	临时目录
+Start Application on System Startup ( Recommended )	开机时自动启动本程序（推荐）
+Show Download Completion Dialog	显示下载完成提示框
+HTTP Proxy	HTTP 代理
+No Proxy/Socks	不使用代理/Socks
+Socks Proxy	Socks 代理
+Address	地址
+Port	端口
+ftp Protocol	ftp 协议
+https Protocol	https 协议
+
+# ---------- 文件夹选择对话框 ----------
+Select Folder	选择文件夹
+Remove	移除
+Open Folder	打开文件夹	0x16522C
+Select a Folder for Downloaded Files :	选择下载文件的保存目录：
+Select a Folder for Temporary Segment Files :	选择临时分段文件的存储目录：
+Directory doesn't exist	目录不存在
+Select a Directory	选择目录
+Directory is READ-ONLY	目录为只读
+Please Correct Focused Item.	请修正当前高亮项。
+
+# ---------- 浏览器扩展对话框 ----------
+Show Download Panel on Web Media Players	在网页播放器上显示下载面板
+Add Chrome Extension	安装 Chrome 扩展
+Add Firefox Extension	安装 Firefox 扩展
+Add Edge Extension	安装 Edge 扩展
+* Catches Video/Audio links on many websites.	* 可在多个网站捕获视频/音频链接。
+* Sends download links from Chrome to the application.	* 将 Chrome 中的下载链接发送至本程序。
+* Sends download links from Firefox to the application.	* 将 Firefox 中的下载链接发送至本程序。
+* YouTube is not supported ( Chrome store doesn't allow )	* 不支持 YouTube（Chrome 应用商店限制）
+* YouTube is supported partially.	* 部分支持 YouTube。
+* Compatible with Chromium-based browsers like Opera, Brave, ...	* 兼容 Opera、Brave 等 Chromium 内核浏览器……
+Chrome is not Installed.	未检测到 Chrome。
+MS Edge is not Installed.	未检测到 Edge。
+Firefox is not Installed.	未检测到 Firefox。
+
+# ---------- 关于 / 检查更新 ----------
+About NeatDownloadManager	关于 NeatDownloadManager
+Check For Update	检查更新
+
+# 以下 4 条关于「检查更新」的状态提示**故意不翻译**。
+# About 对话框的控件位置与宽度是按字符串长度计算的，中文译文比英文短，
+# 会导致状态文字错位并被裁掉。保持原长英文可让该对话框恢复正常布局。
+# 如果你更想要中文，可删掉下面 4 行注释、去掉它们前面的 # 再重新应用。
+# Checking For Update...	正在检查更新...
+# Application is Up To Date.	当前已是最新版本。
+# Unable to Check For Update , Please Try Again Later	无法检查更新，请稍后重试
+# NOT Up To Date, Click Above Button to get the New Version	当前不是最新版本，点击上方按钮获取新版本
+Download New Version	下载新版本
+( Basic Version - Free License )	（基础版 - 免费许可）
+
+# 注意：Contact / Website 这两条**故意不翻译**。
+# NDM 会从 "Contact : support@neatdownloadmanager.com" 和
+# "Website : neatdownloadmanager.com" 里按固定字符偏移截取域名来生成超链接，
+# 改动前缀会导致 About 对话框里的蓝链错乱显示。保持原样最安全。
+
+# ---------- 退出确认 ----------
+Quit NeatDownloadManager	退出 NeatDownloadManager
+Quit Application Totally	完全退出程序
+Hide in Notification Area	隐藏到通知区域
+Are you sure you want to Quit Totally ?	确定要完全退出程序吗？
+You can hide NeatDownloadManager in Notification Area by clicking on MainWindow close button and then bring it to front by clicking on Notification item Menu.	点击主窗口的关闭按钮可将程序隐藏到通知区域，随后点击通知区图标菜单即可重新唤出。
+
+# ---------- 通用提示 ----------
+Warning	警告
+Download Error	下载错误
+Database Error	数据库错误
+Invalid URL	无效链接
+Invalid URL or Unsupported Protocol.	无效链接或不支持的协议。
+Invalid FTP Address. No file name specified in the address.	无效的 FTP 地址，地址中未指定文件名。
+Error on Creating Temp Directory.	创建临时目录时出错。
+Error on Creating Temp Directory  ( 	创建临时目录时出错 ( 
+'Error on Creating Temp Directory.'	创建临时目录时出错。
+'Error ( )'	错误 ( )
+Another Application has Taken Port 10007\r\nThe Port is Needed for Communicating with the Browsers.	端口 10007 已被其他程序占用\r\n该端口是浏览器通信所必需的。
+Failed to Start DownloadEngine.	启动下载引擎失败。
+Failed to Create DownloadEngine - 	创建下载引擎失败 - 
+Failed to Start DownloadEngines.	启动下载引擎失败。
+Failed to Create DownloadEngines.	创建下载引擎失败。
+You should Resend the URL from Browser to NeatDownloadManager.	请在浏览器中重新发送链接。
+The URL has been changed or Download Session has expired.	链接已变更，或下载会话已过期。
+Resend	重新发送
+ Waiting for new URL from Browser Extension ..... 	 正在等待浏览器扩展发送新链接…… 
+407 Unauthorized.	407 未授权。
+
+# ---------- 常见下载错误 ----------
+Error Sending Request.	发送请求时出错。
+No Internet Connection or DNS Failed.	无网络连接或 DNS 解析失败。
+No Network Connection or DNS Error.	无网络连接或 DNS 错误。
+Connection Timed Out.	连接超时。
+Connection TimeOut.	连接超时。
+Can't Connect to Host.	无法连接到目标主机。
+Can not Connect to Proxy Server.	无法连接到代理服务器。
+Server Closed Connection Suddenly.	服务器意外关闭了连接。
+File Size is not the same as Previous try. You should Redownload File from the site you have got it.	文件大小与上次不一致，请从原站点重新下载。
+Bad Server Reply. File Size is Incorrect. Redownload File.	服务器返回异常，文件大小不正确，请重新下载。
+Unsupported Content-Encoding : 	不支持的内容编码： 
+Unsupported WWW-Authentication Scheme.	不支持的 WWW 认证方案。
+Unsupported Proxy-Authentication Scheme.	不支持的代理认证方案。
+Unsupported WWW-Authentication Scheme. ( 	不支持的 WWW 认证方案：( 
+Unsupported Proxy-Authentication Scheme. ( 	不支持的代理认证方案：( 
+Redirection When Download is in progress by other Connections. 	下载进行中被其他连接重定向。 
+Download Must be Renewed. Server Reply is :	需要重新开始下载，服务器返回：
+Error in Downloading HLS file.	下载 HLS 文件时出错。
+Problem on Receiving HlsMaster file	接收 HLS 索引文件时出错
+Error In Merging Segments, Insufficient Free Space or Problem with Download Directory Permissions	合并分段出错，磁盘空间不足或下载目录权限受限
+Server Didn't allow File to Be Resumed. Please Redownload File.	服务器不允许续传，请重新下载。
+File Size Changed. Redownload file.	文件大小已改变，请重新下载。
+SSL HandShake Error.	SSL 握手出错。
+
+# ---------- 表外 UI 标签 / 用户可见错误 ----------
+Internal Error. Socket ( 	内部错误。套接字（ 
+File is Empty. (FileSize=0)	文件为空。(FileSize=0)
+ (Via Proxy)	 （经代理）
+Internal Error - Segmentation failed.	内部错误：分段失败。
+DownloadEngine Internal Error : Sorry, Something went wrong. 	下载引擎内部错误：抱歉，出现问题。 
+No Network connection or DNS failed.Proxy-Server is not reachable.	无网络连接或 DNS 解析失败，代理服务器不可达。
+ Auth Failed For this Connection.	 此连接认证失败。
+ Authenticate Failed for first Connection.@	 首个连接认证失败。@
+No Network Connection or DNS Error. Proxy-Server is not Reachable.	无网络连接或 DNS 错误，代理服务器不可达。
+No Network Connection or DNS Error.Proxy-Server is not Reachable.	无网络连接或 DNS 错误，代理服务器不可达。
+DownloadEngine Unknown Error.	下载引擎未知错误。
+Failed To Open Segment-File.	无法打开分段文件。
+Socks Handshake failed, Network Error or Connection Closed, Check SOCKS Setting.	SOCKS 握手失败，网络错误或连接已关闭，请检查 SOCKS 设置。
+Problem on SOCKS-Proxy, Check User, Password and Socks Setting.	SOCKS 代理有问题，请检查用户名、密码和 SOCKS 设置。
+Error in SOCKS-Proxy, Socket is not connected, Check Socks Setting. 	SOCKS 代理出错，套接字未连接，请检查 SOCKS 设置。 
+Error in SOCKS-Proxy(Send) Socket is not connected, Check Socks Setting. 	SOCKS 代理发送出错，套接字未连接，请检查 SOCKS 设置。 
+Send Failed. FTP Control-Connection is Closed.	发送失败，FTP 控制连接已关闭。
+Bad Ftp Reply From Server.	服务器返回了错误的 FTP 响应。
+Malformed file size received from server.	服务器返回的文件大小格式错误。
+Problem On Creating Data Connection.	创建数据连接时出错。
+FTP Server Sent Bad Reply. Start Position of Segment is Incorrect.	FTP 服务器返回错误响应，分段的起始位置不正确。
+Server Closed Data Channel Suddenly.	服务器突然关闭了数据通道。
+Resumabilty not supported (REST Command). Redownload File.	不支持断点续传（REST 命令），请重新下载。
+Exception : FTP Control Connection Read Error.	异常：FTP 控制连接读取错误。
+Server Sent Bad Replies.Buffer Exploit Detected !	服务器返回异常响应，检测到缓冲区攻击！
+Network Error on Data-CONNECTION, Data Connection Closed. 	数据连接网络错误，数据连接已关闭。 
+Too many HLS Segments.	HLS 分段过多。
+Too Many Redirection( More than 	重定向过多（超过 
+Server Authentication Reply without Auth-Scheme. 	服务器认证响应缺少 Auth-Scheme。 
+Proxy Authentication Reply without Auth-Scheme. 	代理认证响应缺少 Auth-Scheme。 
+SSL Initialization Error.	SSL 初始化错误。
+SSL Initialization Failed.	SSL 初始化失败。
+Error Sending CONNECT. Connection was Closed. 	发送 CONNECT 时出错，连接已关闭。 
+Error Sending Request, Connection was Closed.	发送请求时出错，连接已关闭。
+Server Sent Incorrect Reply, Resumability is not Supported, Redownload the File	服务器返回异常，不支持断点续传，请重新下载文件。
+Problem on Establishing SSL Tunnel. 	建立 SSL 隧道时出错。 
+Malformed FileSize Received from server.	服务器返回的文件大小格式错误。
+TS File has not the same Size as Previous try. You Should Redownload File.	TS 文件大小与上次尝试不一致，请重新下载。
+TS File Size is not the same as Previous try.You should redownload it from the site you have got it.	TS 文件大小与上次尝试不一致，请从原站点重新下载。
+File Has been Changed on Server.Yo must Redownload it from beggining.(Reply-Code=416)	服务器上的文件已改变，请从头重新下载。（Reply-Code=416）
+File is Empty.(FileSize=0). Reply-Code to Range-Request is 416	文件为空。(FileSize=0)。范围请求返回 416
+Internal Error in Dynamic-Segmentation(Range Error) Server Replied with 416 (Unsatisfiable Range)	动态分段内部错误（范围错误），服务器返回 416（无法满足的范围）
+Buffer Exploit Detected!, No End-Of-Line Found in received Headers.	检测到缓冲区攻击！收到的响应头中没有行结束符。
+Domain Name is too long for SOCKS Protocol.	域名对 SOCKS 协议来说太长。
+Failed to Establish Connection to Socks-Server.	无法连接到 SOCKS 服务器。
+Auth Problem - Socks-V5 Server did not Accep Current Auth-Mode.	认证问题：SOCKS V5 服务器不接受当前认证方式。
+HandShake Failed in Socks-V5 Greeting	SOCKS V5 问候阶段握手失败
+Socks Auth Failed.	SOCKS 认证失败。
+Error on parsing Audio File	解析音频文件时出错
+Error on Muxing MKV File	合并 MKV 文件时出错
+Client Sent a Bad Request, Buffer Exploit Detected !	客户端发送了错误请求，检测到缓冲区攻击！
+HandShake Failed.	握手失败。
+MallFormed Chunk Size Received From Server.	服务器返回的分块大小格式错误。
+URL :	网址：
+URL : 	网址： 
+
+Download	下载	0x1670C0
+Download Properties	下载属性	0x16640C
+# ---------- 刻意保留英文的条目 ----------
+# 1) 下载状态列 Complete / Paused / Error
+#    这三个是数据库 status 字段的取值，界面直接读出来显示，
+#    同时又被 SQL 语句 status = 'Complete' 引用，改了会导致列表查询失效。
+#
+# 2) Contact / Website 两行（About 对话框）
+#    NDM 会从 "Contact : support@neatdownloadmanager.com" 与
+#    "Website : neatdownloadmanager.com" 里截取域名来生成超链接，
+#    改动前缀会让蓝链错乱显示，因此保持原样。
+#
+# 3) 日期里的月份缩写（Oct 18 ...）
+#    走的是 Win32 系统区域设置，不读 exe 里的运行库语言表，无法通过改二进制实现。
+#    想让日期显示成中文，请改 Windows 的「设置 → 时间和语言 → 语言和区域」区域格式。

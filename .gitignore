@@ -1,0 +1,15 @@
+# Runtime state and third-party binaries (not distributed)
+originals/
+NeatDM.英文原版.exe.bak
+backup.sha256
+patch_tmp.exe
+*.log
+
+# Personal screenshots (contain local download history)
+效果预览.png
+docs/prototype/layout/
+
+# Agent workflow scaffolding (not part of the published patch)
+.scratch/
+AGENTS.md
+docs/agents/
